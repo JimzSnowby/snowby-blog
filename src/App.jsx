@@ -6,15 +6,19 @@ import About from './pages/About';
 
 function App() {
   return (
-   <div className="App">
+    <div className="App">
+    <nav>
+      <li><Link to="snowby-blog/">Home</Link></li>
+      <li><Link to="snowby-blog/about">About</Link></li>
+    </nav>
     <Routes>
       <Route path="snowby-blog/" element={<Home />}/>
       <Route path="snowby-blog/about" element={<About />}/>
       <Route path="*" element={<h1>404 Not Found</h1>}/>
     </Routes>
-   </div>
-   );
-  }
+    </div>
+  );
+}
   
 
 export default App
