@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 */
 function Menu() {
   return (
-    <nav className="bg-blue-200/90 text-cobalt-blue-text p-4">
+    <nav className="bg-slate-600 text-cobalt-blue-text p-4">
       <ul className="flex justify-center space-x-8">
         <li>
           <Link to="snowby-blog/" className="hover:text-gray-300">
