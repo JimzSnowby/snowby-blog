@@ -37,15 +37,23 @@ function Articles() {
   }, []);
 
   return (
-    <div>
-      <h1>Blog Posts</h1>
+    <div className="flex flex-col items-center">
+      <h1 className="text-4xl font-bold my-8 text-cobalt-blue-text">Blog Posts</h1>
       {articles.map(({ path, content }, index) => (
-        <div key={path} style={{ border: '1px solid #ccc', margin: '10px', padding: '15px' }}>
+        <div
+          key={path}
+          className="w-full max-w-screen-md bg-blue-200/90 shadow-lg rounded-lg p-6 my-6 mx-auto border border-blue-300 min-h-[200px]"
+        >
           {/* Create a clickable link to the article's full page */}
           <Link to={`/article/${path.split('/').pop().replace('.md', '')}`}>
-            <h2>{path.split('/').pop().replace('.md', '')}</h2> {/* Display the file name without .md */}
+            <h2 className="text-2xl font-semibold mb-4 text-gray-900">
+              {path.split('/').pop().replace('.md', '')}
+            </h2>
             {/* Optionally render a summary or snippet */}
-            <div dangerouslySetInnerHTML={{ __html: content.substring(0, 100) + '...' }} />
+            <div
+              className="text-gray-700"
+              dangerouslySetInnerHTML={{ __html: content.substring(0, 100) + '...' }}
+            />
           </Link>
         </div>
       ))}

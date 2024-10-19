@@ -9,12 +9,22 @@ import { Link } from "react-router-dom";
 * @author James Sowerby
 */
 function Menu() {
-    return(
-        <nav>
-            <li><Link to="snowby-blog/">Home</Link></li>
-            <li><Link to="snowby-blog/about">About</Link></li>
-        </nav>
-    )
+  return (
+    <nav className="bg-blue-200/90 text-cobalt-blue-text p-4">
+      <ul className="flex justify-center space-x-8">
+        <li>
+          <Link to="snowby-blog/" className="hover:text-gray-300">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="snowby-blog/about" className="hover:text-gray-300">
+            About
+          </Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Menu
+export default Menu;
