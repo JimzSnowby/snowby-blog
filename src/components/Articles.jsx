@@ -39,23 +39,32 @@ function Articles() {
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-4xl font-bold my-8 text-cobalt-blue-text">Blog Posts</h1>
-      {articles.map(({ path, content }, index) => (
-        <div
+      {articles.map(({ path, content }) => (
+        <Link
+          to={`/article/${path.split('/').pop().replace('.md', '')}`}
           key={path}
-          className="w-full max-w-screen-md bg-blue-200/90 shadow-lg rounded-lg p-6 my-6 mx-auto border border-blue-300 min-h-[200px]"
+          className="group relative w-full max-w-screen-md mx-auto mb-6"
         >
-          {/* Create a clickable link to the article's full page */}
-          <Link to={`/article/${path.split('/').pop().replace('.md', '')}`}>
-            <h2 className="text-2xl font-semibold mb-4 text-gray-900">
-              {path.split('/').pop().replace('.md', '')}
-            </h2>
-            {/* Optionally render a summary or snippet */}
-            <div
-              className="text-gray-700"
-              dangerouslySetInnerHTML={{ __html: content.substring(0, 100) + '...' }}
-            />
-          </Link>
-        </div>
+          {/* Glowing gradient border */}
+          <div
+            className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-500"
+          ></div>
+
+          {/* Main content */}
+          <div
+            className="relative px-7 py-6 bg-indigo-950 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6"
+          >
+            <div className="space-y-2">
+              <h2 className="text-2xl font-semibold mb-4 text-gray-400">
+                {path.split('/').pop().replace('.md', '')}
+              </h2>
+              <div
+                className="text-gray-100"
+                dangerouslySetInnerHTML={{ __html: content.substring(0, 100) + '...' }}
+              />
+            </div>
+          </div>
+        </Link>
       ))}
     </div>
   );
