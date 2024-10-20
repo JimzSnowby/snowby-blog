@@ -47,7 +47,7 @@ function Articles() {
         >
           {/* Glowing gradient border */}
           <div
-            className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-500"
+            className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-yellow-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-500"
           ></div>
 
           {/* Main content */}

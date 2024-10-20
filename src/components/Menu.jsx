@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 
 /**
-* Menu component
-*
-* Main navigation component of the app,
-* linking all pages
-*
-* @author James Sowerby
-*/
+ * Menu component
+ *
+ * Main navigation component of the app,
+ * linking all pages
+ *
+ * @author James Sowerby
+ */
 function Menu() {
   return (
-    <nav className="bg-slate-600 text-cobalt-blue-text p-4">
+    <nav className="bg-indigo-950 text-cobalt-blue-text p-4 rounded-lg mx-auto max-w-lg shadow-md">
       <ul className="flex justify-center space-x-8">
         <li>
           <Link to="snowby-blog/" className="hover:text-gray-300">
