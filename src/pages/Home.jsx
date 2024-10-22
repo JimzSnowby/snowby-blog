@@ -1,4 +1,5 @@
 import Articles from "../components/Articles"
+import LinkedInProfile from '../components/LinkedInProfile';
 
 /**
 * Home page
@@ -10,6 +11,7 @@ import Articles from "../components/Articles"
 function Home() {
     return (
     <>
+        <LinkedInProfile />
         <Articles />
     </>
     )

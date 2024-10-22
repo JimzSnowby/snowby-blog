@@ -2,7 +2,7 @@ import React from 'react';
 
 function LinkedInProfile() {
   return (
-    <div className="fixed right-4 top-1/4 group">
+    <div className="fixed right-4 top-1/5 group">
       {/* Glowing gradient border */}
       <div
         className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-yellow-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-500"
