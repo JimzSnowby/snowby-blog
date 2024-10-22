@@ -3,13 +3,14 @@ import { Routes, Route } from "react-router-dom"
 import Home from './pages/Home';
 import About from './pages/About';
 import Menu from './components/Menu';
-import Articles from './components/Articles';
 import ArticlePage from './pages/ArticlePage';
+import LinkedInProfile from './components/LinkedInProfile';
 
 function App() {
   return (
     <div className="App">
       <Menu />
+      <LinkedInProfile />
       <Routes>
         <Route path="snowby-blog/" element={<Home />}/>
         <Route path="/article/:id" element={<ArticlePage />}/>

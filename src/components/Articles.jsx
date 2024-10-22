@@ -2,6 +2,14 @@ import { useEffect, useState } from 'react';
 import { marked } from 'marked';
 import { Link } from 'react-router-dom'; // Import Link from React Router
 
+/**
+ * Article component
+ *
+ * Gets the .md files from the posts folder and
+ * renders them as individual, clickable articles
+ *
+ * @author James Sowerby
+ */
 function Articles() {
   const [articles, setArticles] = useState([]);
 
