@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 /**
  * Menu component
  *
- * Main navigation component of the app,
- * linking all pages
+ * Main navigation component of the app.
+ * links all pages
  *
  * @author James Sowerby
  */
