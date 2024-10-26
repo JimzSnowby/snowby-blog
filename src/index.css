@@ -23,6 +23,11 @@
     margin-bottom: 1rem;
 }
 
+.markdown a {
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
 .markdown img {
     display: block;            /* Centers the image when margin is set to auto */
     margin: 1rem auto;         /* Auto margins for horizontal centering */
