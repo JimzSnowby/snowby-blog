@@ -34,10 +34,25 @@ function ArticlePage() {
   }, [id]);
 
   return (
-    <div>
-      <h1>{title}</h1>
-      {/* Render the full content */}
-      <div dangerouslySetInnerHTML={{ __html: content }} />
+    <div className="flex flex-col items-center">
+      {/* Glowing effect container */}
+      <div className="group relative w-full max-w-screen-md mx-auto mt-12 mb-8">
+        {/* Glowing gradient border */}
+        <div
+          className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-yellow-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-500"
+        ></div>
+
+        {/* Main article content */}
+        <div
+          className="relative px-7 py-6 bg-indigo-950 ring-1 ring-gray-900/5 rounded-lg leading-relaxed text-gray-100"
+        >
+          <h1 className="text-4xl font-bold text-center mb-6 text-gray-300">{title}</h1>
+          <div
+            className="prose prose-lg prose-invert max-w-none text-gray-200"
+            dangerouslySetInnerHTML={{ __html: content }}
+          />
+        </div>
+      </div>
     </div>
   );
 }
