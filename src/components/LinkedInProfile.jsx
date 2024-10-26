@@ -13,11 +13,9 @@ function LinkedInProfile() {
       <div
         className="relative px-7 py-6 bg-indigo-950 ring-1 ring-gray-900/5 rounded-lg flex flex-col items-start space-y-2 transition-transform transform group-hover:scale-105 duration-500 z-10"
       >
-        <h2 className="text-2xl font-semibold mb-2 text-gray-100">James Sowerby</h2>
-        <p className="text-gray-300">Connect with me on LinkedIn!</p>
-        <Link to="https://www.linkedin.com/in/james-sowerby-393146248/" className="text-blue-400 underline">
-          Visit LinkedIn
-        </Link>
+        <h2 className="text-2xl font-semibold mb-2 text-gray-100">Hi, I'm James Sowerby</h2>
+        <p>A Computer Science graduate from Northumbria University.</p>
+        <p>For more information about who I am, click the About button at the top of the page, or connect with me on <Link to="https://www.linkedin.com/in/james-sowerby-393146248/" className="text-blue-400 underline">LinkedIn!</Link></p>
       </div>
     </div>
   );
