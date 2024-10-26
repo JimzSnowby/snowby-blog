@@ -16,6 +16,6 @@ A CSS framework for styling websites. Rather than traditional CSS, where you nee
 <li><strong>Markdown</strong>:
 Rather than typing out these articles directly into HTML or fetching from a database/API (which GitHub Pages doesn't support), I wanted to be able to write articles with very little hassle. After a bit of research, I learnt about Markdown, a super simple way to format text into HTML using plain characters, and after writing a simple JavaScript plugin for Vite, I can now convert .md files into what you're reading now!</li>
 <li><strong>GitHub Pages</strong>:
-I'm a poor, unemployed graduate, so I wasn't really willing to spend money on server hosting. I originally looked into using a Raspberry Pi as a web server, until I came across <a href="https://pages.github.com/">GitHub Pages</a>. It's free and easy to use, although there are drawbacks such as not being able to run any server side code (so PHP was out of the question).</li>
+I'm a poor, unemployed graduate, so I wasn't really willing to spend money on server hosting, but I also wanted to challenge myself. I originally looked into using a Raspberry Pi as a web server, until I came across <a href="https://pages.github.com/">GitHub Pages</a>. It's free and easy to use, although there are drawbacks such as not being able to run any server side code (so PHP was out of the question).</li>
 </ul>
 `;export{e as default};
