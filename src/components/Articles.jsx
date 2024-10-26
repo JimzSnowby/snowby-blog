@@ -27,15 +27,21 @@ function Articles() {
         })
       );
 
-      // Sort articles by file name (assuming they are named with a date like YYYY-MM-DD.md)
+      // Sort articles by date (assuming filenames are in DD-MM-YYYY format)
       const sortedArticles = loadedArticles.sort((a, b) => {
-        const dateA = a.path.match(/(\d{4}-\d{2}-\d{2})/);
-        const dateB = b.path.match(/(\d{4}-\d{2}-\d{2})/);
+        const dateA = a.path.match(/(\d{2}-\d{2}-\d{4})/);
+        const dateB = b.path.match(/(\d{2}-\d{2}-\d{4})/);
 
         // Fallback for files without a valid date in the filename
         if (!dateA || !dateB) return 0;
 
-        return new Date(dateB[0]) - new Date(dateA[0]); // Sort by most recent date (newest first)
+        // Convert DD-MM-YYYY to YYYY-MM-DD for proper Date parsing
+        const [dayA, monthA, yearA] = dateA[0].split('-');
+        const [dayB, monthB, yearB] = dateB[0].split('-');
+        const parsedDateA = new Date(`${yearA}-${monthA}-${dayA}`);
+        const parsedDateB = new Date(`${yearB}-${monthB}-${dayB}`);
+
+        return parsedDateB - parsedDateA; // Sort by most recent date (newest first)
       });
 
       setArticles(sortedArticles); // Update state with sorted articles
@@ -67,7 +73,7 @@ function Articles() {
                 {path.split('/').pop().replace('.md', '')}
               </h2>
               <div
-                className="text-gray-100"
+                className="markdown"
                 dangerouslySetInnerHTML={{ __html: content.substring(0, 100) + '...' }}
               />
             </div>

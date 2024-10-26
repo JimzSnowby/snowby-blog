@@ -48,7 +48,7 @@ function ArticlePage() {
         >
           <h1 className="text-4xl font-bold text-center mb-6 text-gray-300">{title}</h1>
           <div
-            className="prose prose-lg prose-invert max-w-none text-gray-200"
+            className="markdown"
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>
