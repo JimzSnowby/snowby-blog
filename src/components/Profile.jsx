@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import profilePic from "../assets/ProfilePic.jpg";
+
 
 function Profile() {
   return (
@@ -14,7 +16,7 @@ function Profile() {
       >
         {/* Profile image */}
         <img 
-          src="src/assets/ProfilePic.jpg" 
+          src={profilePic}
           alt="James Sowerby" 
           className="w-[200px] h-[200px] rounded-full object-cover"
         />
