@@ -14,7 +14,7 @@ function Profile() {
       >
         {/* Profile image */}
         <img 
-          src="src\assets\ProfilePic.jpg" 
+          src="src/assets/ProfilePic.jpg" 
           alt="James Sowerby" 
           className="w-[200px] h-[200px] rounded-full object-cover"
         />
