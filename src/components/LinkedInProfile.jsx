@@ -11,7 +11,7 @@ function LinkedInProfile() {
 
       {/* Main content with padding and scale effect */}
       <div
-        className="relative px-7 py-6 bg-indigo-950 ring-1 ring-gray-900/5 rounded-lg flex flex-col items-start space-y-2 transition-transform transform group-hover:scale-105 duration-500 z-10"
+        className="relative px-7 py-6 bg-malibu-900 ring-1 ring-gray-900/5 rounded-lg flex flex-col items-start space-y-2 transition-transform transform group-hover:scale-105 duration-500 z-10"
       >
         <h2 className="text-2xl font-semibold mb-2 text-gray-100">Hi, I'm James Sowerby</h2>
         <p>A Computer Science graduate from Northumbria University.</p>

@@ -19,7 +19,7 @@ function Menu() {
         ></div>
 
         {/* Menu content with slightly smaller scaling */}
-        <nav className="relative bg-indigo-950 text-cobalt-blue-text p-4 rounded-lg mx-auto shadow-md transition-transform transform group-hover:scale-105 duration-500 z-10">
+        <nav className="relative bg-malibu-900 text-cobalt-blue-text p-4 rounded-lg mx-auto shadow-md transition-transform transform group-hover:scale-105 duration-500 z-10">
           <ul className="flex justify-center space-x-8">
             <li>
               <Link to="snowby-blog/" className="hover:text-gray-300">

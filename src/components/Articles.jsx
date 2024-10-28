@@ -66,7 +66,7 @@ function Articles() {
 
           {/* Main content with a slight scale */}
           <div
-            className="relative px-7 py-6 bg-indigo-950 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 transition-transform transform group-hover:scale-105 duration-500 z-10"
+            className="relative px-7 py-6 bg-malibu-900 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 transition-transform transform group-hover:scale-105 duration-500 z-10"
           >
             <div className="space-y-2">
               <h2 className="text-2xl font-semibold mb-4 text-gray-400">
