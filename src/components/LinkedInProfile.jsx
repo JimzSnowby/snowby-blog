@@ -6,7 +6,7 @@ function LinkedInProfile() {
       
       {/* Glowing gradient border with scale effect */}
       <div
-        className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-yellow-500 rounded-lg blur opacity-25 transition-all duration-500 group-hover:opacity-100 group-hover:scale-110"
+        className="absolute -inset-1 bg-gradient-to-r from-malibu-500 to-malibu-400 rounded-lg blur opacity-25 transition-all duration-500 group-hover:opacity-100 group-hover:scale-110"
       ></div>
 
       {/* Main content with padding and scale effect */}

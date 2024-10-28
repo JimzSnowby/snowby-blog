@@ -61,7 +61,7 @@ function Articles() {
         >
           {/* Glowing gradient border with scale effect */}
           <div
-            className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-yellow-500 rounded-lg blur opacity-25 transition-all duration-500 group-hover:opacity-100 group-hover:scale-110"
+            className="absolute -inset-1 bg-gradient-to-r from-malibu-500 to-malibu-400 rounded-lg blur opacity-25 transition-all duration-500 group-hover:opacity-100 group-hover:scale-110"
           ></div>
 
           {/* Main content with a slight scale */}
@@ -69,7 +69,7 @@ function Articles() {
             className="relative px-7 py-6 bg-malibu-900 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 transition-transform transform group-hover:scale-105 duration-500 z-10"
           >
             <div className="space-y-2">
-              <h2 className="text-2xl font-semibold mb-4 text-gray-400">
+              <h2 className="text-2xl font-semibold mb-4 text-malibu-400">
                 {path.split('/').pop().replace('.md', '')}
               </h2>
               <div

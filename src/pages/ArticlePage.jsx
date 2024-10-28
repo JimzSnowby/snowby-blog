@@ -39,7 +39,7 @@ function ArticlePage() {
       <div className="group relative w-full max-w-screen-md mx-auto mt-12 mb-8">
         {/* Glowing gradient border */}
         <div
-          className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-yellow-500 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-500"
+          className="absolute -inset-1 bg-gradient-to-r from-malibu-500 to-malibu-400 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-500"
         ></div>
 
         {/* Main article content */}
