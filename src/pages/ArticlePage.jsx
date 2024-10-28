@@ -46,7 +46,7 @@ function ArticlePage() {
         <div
           className="relative px-7 py-6 bg-malibu-900 ring-1 ring-gray-900/5 rounded-lg leading-relaxed text-gray-100"
         >
-          <h1 className="text-4xl font-bold text-center mb-6 text-gray-300">{title}</h1>
+          <h1 className="text-4xl font-bold text-center mb-6 text-malibu-600">{title}</h1>
           <div
             className="markdown"
             dangerouslySetInnerHTML={{ __html: content }}

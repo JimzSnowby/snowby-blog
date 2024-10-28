@@ -69,7 +69,7 @@ function Articles() {
             className="relative px-7 py-6 bg-malibu-900 ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-start space-x-6 transition-transform transform group-hover:scale-105 duration-500 z-10"
           >
             <div className="space-y-2">
-              <h2 className="text-2xl font-semibold mb-4 text-malibu-400">
+              <h2 className="text-2xl font-semibold mb-4 text-malibu-600">
                 {path.split('/').pop().replace('.md', '')}
               </h2>
               <div
