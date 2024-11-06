@@ -24,4 +24,7 @@ Rather than typing out these articles directly into HTML or fetching from a data
 As a poor, unemployed graduate, I wasn't willing to spend money on server hosting, but I also wanted to challenge myself. I originally looked into using a Raspberry Pi as a web server, until I came across <a href="https://pages.github.com/">GitHub Pages</a>. It's free and easy to use, although there are drawbacks such as not being able to run any server side code (so PHP was out of the question).
 <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo" title="GitHub Logo"></li>
 </ul>
+<h2>Approach</h2>
+<p>Taking inspiration from a group project I did at university—a charity event management system web application using similar technologies—I wanted to take the same approach, going for a professional-looking style and color scheme. Making use of React and Tailwind, this was easily achieved, making it easy to view on both desktop and mobile devices, with a reactive design for the device it is being viewed on.</p>
+<p>For the colour scheme, I originally went for my favourite colour (Purple!), but it was too dark which was difficult to blend the other components together nicely. To solve this, I looked at brighter colours, and using the <a href="https://uicolors.app/create">UI Colors</a> website, I settled on what I believe is a more professional looking blue that is easy on the eyes and helps blend the other components together.</p>
 `;export{e as default};
