@@ -34,7 +34,7 @@ function About() {
 
               {/* Main content with padding and scale effect */}
               <div className="relative px-7 py-6 bg-malibu-900 ring-1 ring-gray-900/5 rounded-lg transition-transform transform group-hover:scale-105 duration-500 z-10">
-                  <h1 className="text-4xl font-bold mb-4 text-cobalt-blue-text">About Me</h1>
+                  <h1 className="text-4xl font-bold mb-4 text-cobalt-blue-text">About Me (WIP)</h1>
                   <div className="flex justify-center items-center">
                     {/* Image */}
                     <img
