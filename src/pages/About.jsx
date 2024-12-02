@@ -44,7 +44,7 @@ function About() {
                     />
                   </div>
                   <p className="text-gray-100 mb-4">
-                      Hi, I'm James Sowerby, a passionate software developer with a keen interest in creating innovative solutions. Welcome to my portfolio!
+                      Hi, I'm James Sowerby, a Computer Science graduate from Northumbria University that is passionate about technology. Welcome to my portfolio!
                   </p>
 
                   {/* Skills Section */}
