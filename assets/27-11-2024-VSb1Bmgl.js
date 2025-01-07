@@ -1,4 +1,4 @@
-const e=`<h1>Working On Mindset</h1>
+const e=`<h1>Working On Mindset - part 1</h1>
 <p>Having graduated university, I foolishly thought that I had finished the most difficult part of starting a career and that I would be offered a job by the end of the year. That was back in June, and I am still in the exhausting and demoralising world of job hunting. After working on applications for nearly 6 months, it had taken its toll on me both mentally and physically, to a point where it became concerning. The quality of the applications that I was putting in had dropped, I was unproductive, depressed, and I was struggling to make myself appealing to potential employers. After meeting with a work coach that had been suggested to me, things began to click.</p>
 <p>Originally, I was quite cynical when it came to things like mindset, believing that I already had a good understanding of myself and knew what I needed to do to be successful, but after a very eye-opening discussion, everything has become much clearer, and I have learnt things about myself that I never considered.</p>
 <h2>Mindset coaching session 1</h2>
