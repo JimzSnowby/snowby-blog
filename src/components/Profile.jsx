@@ -21,7 +21,8 @@ function Profile() {
         <div className="text-center md:text-left">
           <h2 className="text-2xl font-semibold mb-2 text-malibu-400">Hi, I'm James Sowerby</h2>
           <p>A Computer Science graduate from Northumbria University.</p>
-          <p>For more information about who I am, click the About button at the top of the page, or connect with me on <Link to="https://www.linkedin.com/in/james-sowerby-393146248/" className="text-blue-400 underline">LinkedIn!</Link></p>
+          <p>For more information about who I am, click the About button at the top of the page, or connect with me on <Link to="https://www.linkedin.com/in/james-sowerby-393146248/" className="text-blue-400 underline">LinkedIn</Link></p>
+          <p className="mt-2">Don't forget to check out my <Link to="https://github.com/JimzSnowby" className="text-blue-400 underline">GitHub</Link>!</p>
         </div>
       </div>
     </div>
