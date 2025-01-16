@@ -37,22 +37,22 @@ const Portfolio = () => {
         <h2 className="text-2xl font-semibold text-center text-malibu-400">My GitHub Repositories</h2>
         <ul className="space-y-4">
           {repos.map(repo => (
-            <li
+            <a
+              href={repo.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
               key={repo.id}
-              className="p-4 bg-malibu-800 rounded-lg shadow hover:shadow-lg hover:bg-malibu-700 transition duration-300"
+              className="block"
             >
-              <a
-                href={repo.html_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xl font-semibold text-malibu-300 hover:underline"
-              >
-                {repo.name}
-              </a>
-              {repo.description && (
-                <p className="text-malibu-200 mt-1">{repo.description}</p>
-              )}
-            </li>
+              <li className="p-4 bg-malibu-800 rounded-lg shadow hover:shadow-lg hover:bg-malibu-700 transition duration-300 cursor-pointer">
+                <div className="text-xl font-semibold text-malibu-300">
+                  {repo.name}
+                </div>
+                {repo.description && (
+                  <p className="text-malibu-200 mt-1">{repo.description}</p>
+                )}
+              </li>
+            </a>
           ))}
         </ul>
       </div>
