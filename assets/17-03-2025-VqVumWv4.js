@@ -1,0 +1,7 @@
+const t=`<h1>Oh No! My page went down!</h1>
+<p>Well this is awkward. After having put so much effort into this portfolio/blog, I revisited it only to find that it stopped working! Anyone who tried to access this website would be met with a &quot;404 not found&quot; error. Having used this website for my job search, it's pretty embarrassing to have been sending potential employers to a website that wasn't working, that's not a good look for me.</p>
+<h2>So what happend?</h2>
+<p>After fumbling around in my GitHub settings, I finally realised what the problem was. I made my GitHub account during university and as a student, I was given free access to GitHub Pro. This meant that I could make use of GitHub Pages without having to set my repo for the website to public. In my infinite wisdom, I didn't want people to be able to see or fork the code for my portfolio website, thinking I was taking steps to protect some of my information (don't ask, I'm not sure myself lol), but clearly I was overly cautious and as soon as the GitHub Pro licence ran out, everything broke due to the repo being set to private.</p>
+<h2>Going forward</h2>
+<p>So after this whole mess I have definitely learnt my lesson and will need to be much more careful and alert about maintaining these important repos. I will not let this happen again, and I can also show off the code for this website in order to help better promote myself.</p>
+`;export{t as default};
