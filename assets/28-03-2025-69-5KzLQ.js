@@ -1,0 +1,6 @@
+const e=`<h1>Coding assessments</h1>
+<p>Recently I have (finally) had an influx of intvitations to programming assessments for jobs (hurray!). It seems like the job market has finally began to stabilise ever so slightly. Today I had my first coding assessment in a while, and oh boy, I am out of practice. It's frustrating how interview assessments are nothing like what I was being taught at university, and the sentiment online seems to agree, a lot of there coding interviews do not realistically represent what an actual project would look like.</p>
+<p>As much as I and everyone else in the same situation as me wants to kick and scream about it, it is the unfortunate reality of trying to become a software engineer.</p>
+<h2>So what do I do?</h2>
+<p>Well from todays interview, it is clear that I need to stop putting so much time into normal programming projects, and invest more time into these coding interview/challenge websites such as LeetCode (ugh). I am pretty confident in my programming ability, however it is clear that my problem solving skills related to coding needs work in order for me to be successful in these interviews. Guess that's another thing added to my long list of things to learn and practice.</p>
+`;export{e as default};
