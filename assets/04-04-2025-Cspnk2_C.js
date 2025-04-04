@@ -4,4 +4,6 @@ const t=`<h1>I attempted to join Amazon</h1>
 <h2>What did I learn?</h2>
 <p>I learnt that I need to believe in myself and my own ability more. Yes I struggled with certain aspects, as unfortunately I wasn't able to reduce the time complexity of one of my answers to lower than O(n^2), however, at least for my level, I was honestly surprised by my own ability that I could actually pass the majority of the test cases.</p>
 <p>Alexa, add improving time complexity to my study list.</p>
+<h2>Still hope?</h2>
+<p>As of writing I have yet to complete the &quot;work styles&quot; assessment, but at least I know I passed the programming section!</p>
 `;export{t as default};
